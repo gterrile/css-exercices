@@ -1,0 +1,20 @@
+/* style for 02 class id selector */
+
+p {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.pinky {
+  background-color: lightpink;
+  font-size: 22px;
+}
+
+.big {
+  font-size: 36px;
+}
+
+#greeny {
+  background-color: lightgreen;
+  font-size: 24px;
+  font-weight: bold;
+}
