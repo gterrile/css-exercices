@@ -1,0 +1,68 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+.green {
+  background-color: lightgreen;
+  border: 3px solid green;
+}
+
+.blue {
+  background-color: rgb(113, 113, 255);
+  border: 3px solid blue;
+  display: flex;
+  margin: 12px;
+}
+
+.orange {
+  background-color: rgb(255, 202, 105);
+  border: 3px solid orange;
+  height: 48px;
+  display: flex;
+  flex: 1;
+  margin: 12px 6px;
+}
+
+.pink {
+  background-color: rgb(255, 147, 147);
+  border: 3px solid red;
+  flex: 1;
+}
+
+.center {
+  display: flex;
+  margin: 12px;
+}
+
+.brown {
+  background-color: rgb(194, 124, 124);
+  border: 3px solid brown;
+  height: 120px;
+  flex: 1;
+}
+
+.brown-container {
+  flex: 1;
+  height: 120px;
+}
+
+.small {
+  background-color: rgb(194, 124, 124);
+  border: 3px solid brown;
+  height: 60px;
+}
+
+.violet {
+  background-color: rgb(122, 76, 122);
+  border: 3px solid rgb(99, 4, 99);
+  height: 48px;
+  display: flex;
+  flex: 2;
+  margin: 12px 6px;
+}
